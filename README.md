@@ -9,9 +9,9 @@ It parses the $CERTBOT_VALIDATION variable send by certbot, see also https://cer
 Can also be used with the renewal process as DuckDNS sets one generic DNS TXT record for (*.)DOMAIN.duckdns.org
 
 ## Other variables that are optional
-CERTBOT_DOMAIN: The domain being authenticated
-CERTBOT_VALIDATION: The validation string (HTTP-01 and DNS-01 only)
-CERTBOT_TOKEN: Resource name part of the HTTP-01 challenge (HTTP-01 only)
-CERTBOT_CERT_PATH: The challenge SSL certificate (TLS-SNI-01 only)
-CERTBOT_KEY_PATH: The private key associated with the aforementioned SSL certificate (TLS-SNI-01 only)
-CERTBOT_SNI_DOMAIN: The SNI name for which the ACME server expects to be presented the self-signed certificate located at $CERTBOT_CERT_PATH (TLS-SNI-01 only)
+- CERTBOT_DOMAIN: The domain being authenticated
+- CERTBOT_VALIDATION: The validation string (HTTP-01 and DNS-01 only)
+- CERTBOT_TOKEN: Resource name part of the HTTP-01 challenge (HTTP-01 only)
+- CERTBOT_CERT_PATH: The challenge SSL certificate (TLS-SNI-01 only)
+- CERTBOT_KEY_PATH: The private key associated with the aforementioned SSL certificate (TLS-SNI-01 only)
+- CERTBOT_SNI_DOMAIN: The SNI name for which the ACME server expects to be presented the self-signed certificate located at $CERTBOT_CERT_PATH (TLS-SNI-01 only)
